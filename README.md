@@ -1,7 +1,8 @@
+<p align="center">
+<img src="Horologium.png" alt="Horologium"/>
+</p>
 
-![AppLogo](Horologium.png)
-
-***Horologium*** 
+# *Horologium*
 
 *Horologium* is a Latin word whose meaning is *Clock*.
 
@@ -18,6 +19,6 @@ In short this application integrates basic features of a clock and a weather app
 - Platform - Android studio 3.x or above
 - Internet access - To fetch weather info for particular city
 
-**TODO: **
+**TODO:**
 * Currently alarm trigger is vibrate only, still we can not select a custom audio file as a alarmtone.
 * We can not select specific date for alarm, rather we can select only day from days in a week.
