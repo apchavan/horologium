@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Horologium</string>
+
+    <string name="navigationOpen">Navigation open</string>
+    <string name="navigationClose">Navigation close</string>
+
+    <string name="clock_str">Clock</string>
+    <string name="digitalTime_str">Digital time</string>
+    <string name="analogTime_str">Analog time</string>
+    <string name="textClockFormat_str">hh:mm:ss a</string>
+    <string name="time_str">Time</string>
+
+    <string name="alarm_str">Alarm</string>
+    <string name="alarm_off">ALARM OFF</string>
+    <string name="alarm_on">ALARM ON</string>
+    <string name="wakeUP_str">Wake-up alarm!</string>
+
+    <string name="reminder_str">Reminder</string>
+
+
+    <string name="stopwatch_str">Stopwatch</string>
+    <string name="stopwatch_TextView_Text">0:00:000</string>
+    <string name="startBtn_str">Start</string>
+    <string name="pauseBtn_str">Pause</string>
+    <string name="resetBtn_str">Reset</string>
+    <string name="saveLapBtn_str">Save-lap</string>
+    <string name="clearLapsBtn_str">Clear laps</string>
+
+    <string name="weather_status_str">Weather status</string>
+    
+    <string name="weather_str">Weather</string>
+    <string name="open_weather_maps_app_id">282f811e71e9ace6a541053456059fc0</string>
+    <string name="enter_city_name_str">Enter city name</string>
+    <string name="change_city_str_OK_btn_str">OK</string>
+    <string name="confirmDeleteCity_str">Confirm Delete City</string>
+    <string name="contentDeleteCity_str">Are you sure, you would like to delete this city ?</string>
+
+    <string name="cityNotAddedPleaseAddOneToShowWeatherStatus_str">City not added,\n please add one to show weather status …</string>
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+    <string name="place_not_found">Sorry, no weather data found…</string>
+
+    <string name="cities_str">Cities</string>
+    <string name="cityName_str">City name</string>
+    <string name="citiesAddedInWeatherSectionWillBeListedHere_str">Cities added in \n \'Weather\' section will be listed here …</string>
+    <string name="countryName_str">Country name</string>
+    <string name="delete_str">DELETE</string>
+    <string name="removedFromList_str">removed from list.</string>
+
+    <string name="other_str">Other</string>
+    <string name="profile_str">Profile</string>
+    <string name="info_str">Info</string>
+
+
+    <string name="updated_str">Updated</string>
+    <string name="weatherIcon_str">Weather icon</string>
+    <string name="details_str">Details</string>
+    <string name="currentTemperature_str">Current temperature</string>
+
+    <string name="someProblemToGetCurrentLocationMakeSureYourGPSIsOn_str">Some problem to get current location, please make sure your GPS is ON! </string>
+
+
+    <!-- Alarm Activity/Fragment -->
+    <string name="empty_view_text">\t\t\t Click on the \n Floating Action Button \n\t\t to add an alarm!</string>
+
+    <!-- Edit Alarm Activity/Fragment -->
+    <string name="time">Time</string>
+    <string name="label">Label</string>
+    <string name="days">Days</string>
+    <string name="am_str">AM</string>
+    <string name="alarmTitle_str">Alarm title</string>
+    <string name="repeatAlarm_str">Repeat alarm</string>
+    <string name="alarmClockIcon">Alarm clock icon</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="add_label_hint">Add a label!</string>
+    <string name="update_complete">Changes Saved</string>
+    <string name="update_failed">Update Failed</string>
+    <string name="delete_complete">Alarm Deleted</string>
+    <string name="delete_failed">Delete Failed</string>
+    <string name="delete_dialog_title">Confirm Delete Alarm</string>
+    <string name="delete_dialog_content">Are you sure, you would like to delete this alarm ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Edit Alarm Menu -->
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Alarm Landing Page Activity/Fragment -->
+    <string name="showAlarms_str">Show alarms</string>
+    <string name="dismiss_str">Dismiss</string>
+
+    <!-- Days -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="allDaysOfWeek_str">M Tu W Th F Sa Su</string>
+    <string name="pleaseSelectDayOfWeekForAlarmOrReminder_str">Please select day of week for alarm/reminder.</string>
+
+    <string name="developerInfo_str"> <b><i><u>Horologium</u></i></b> \n\n Developed by : \n <b>Chavan Amey Prasannakumar</b> \n &amp; \n <b>Shinde Shrihari Manohar</b>
+        \n\n Under obliging guidance of : \n <b>Mr. Vinayak Sapa</b>
+    </string>
+
+</resources>

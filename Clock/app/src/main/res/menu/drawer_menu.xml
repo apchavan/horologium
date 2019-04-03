@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/clock_str">
+            <menu>
+                <item android:id="@+id/time"
+                    android:title="@string/time_str"
+                    android:icon="@drawable/time_icon"/>
+                <item android:id="@+id/alarm"
+                    android:title="@string/alarm_str"
+                    android:icon="@drawable/alarm_icon"/>
+                <!--<item android:id="@+id/reminder"
+                    android:title="@string/reminder_str"
+                    android:icon="@drawable/reminder_icon"/>-->
+                <item android:id="@+id/stopwatch"
+                    android:title="@string/stopwatch_str"
+                    android:icon="@drawable/stopwatch_icon"/>
+            </menu>
+        </item>
+
+        <item android:title="@string/weather_status_str">
+            <menu>
+                <item android:id="@+id/weather"
+                    android:title="@string/weather_str"
+                    android:icon="@drawable/weather_icon"/>
+                <item android:id="@+id/cities"
+                    android:title="@string/cities_str"
+                    android:icon="@drawable/cities_icon"/>
+            </menu>
+        </item>
+
+        <item android:title="@string/other_str">
+            <menu>
+                <!--<item android:id="@+id/profile"
+                    android:title="@string/profile_str"
+                    android:icon="@drawable/profile_icon"/>-->
+                <item android:id="@+id/info"
+                    android:title="@string/info_str"
+                    android:icon="@drawable/info_icon"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

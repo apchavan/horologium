@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stopwatchFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAppDarkBackground">
+
+
+    <!--<include
+        android:id="@+id/includeStopwatchTextView"
+        layout="@layout/stopwatch_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />  -->
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/stopwatchFragmentControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAppDarkBackground">
+
+        <TextView
+            android:id="@+id/stopwatchTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/stopwatch_TextView_Text"
+            android:textColor="@color/colorTextWhiteForeground"
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/startBtn_str"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/stopwatchTextView" />
+
+        <Button
+            android:id="@+id/pauseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/pauseBtn_str"
+            app:layout_constraintStart_toEndOf="@+id/startBtn"
+            app:layout_constraintTop_toBottomOf="@+id/stopwatchTextView" />
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/resetBtn_str"
+            app:layout_constraintStart_toEndOf="@+id/saveLapBtn"
+            app:layout_constraintTop_toBottomOf="@+id/pauseBtn" />
+
+        <Button
+            android:id="@+id/saveLapBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/saveLapBtn_str"
+            app:layout_constraintStart_toStartOf="@+id/startBtn"
+            app:layout_constraintTop_toBottomOf="@+id/startBtn" />
+
+        <Button
+            android:id="@+id/clearLapsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/clearLapsBtn_str"
+            app:layout_constraintStart_toEndOf="@+id/pauseBtn"
+            app:layout_constraintTop_toBottomOf="@+id/stopwatchTextView" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/stopwatchFragmentRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stopwatchFragmentControls">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewLaps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAppDarkBackground"
+            android:scrollbars="vertical" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
