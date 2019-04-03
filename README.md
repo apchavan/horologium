@@ -17,3 +17,7 @@ In short this application integrates basic features of a clock and a weather app
 - Backend - SQLite (For storage of user data)
 - Platform - Android studio 3.x or above
 - Internet access - To fetch weather info for particular city
+
+**TODO: **
+* Currently alarm trigger is vibrate only, still we can not select a custom audio file as a alarmtone.
+* We can not select specific date for alarm, rather we can select only day from days in a week.
