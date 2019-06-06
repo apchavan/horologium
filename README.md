@@ -12,11 +12,13 @@ In short this application integrates basic features of a clock and a weather app
 **You can also go through 'Output screens' directory to see how this looks.**
 
 **Requirements:**
-- Operating system - Android 4.4.2 (Kitkat) or above
+- Compatibility - Android 4.4.2 (Kitkat) or above
 - API level - 19 or above
-- Programming language - Java
+- Development platform: Linux (Ubuntu 16.04 LTS), Windows
+- Programming language - Java 8
 - Backend - SQLite (For storage of user data)
-- Platform - Android studio 3.x or above
+- IDE - Android studio 3.x or above
+- Other API: OpenWeatherMap (To fetch weather info) (See - https://openweathermap.org/)
 - Internet access - To fetch weather info for particular city
 
 **TODO:**
