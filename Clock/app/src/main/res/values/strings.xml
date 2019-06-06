@@ -29,7 +29,13 @@
     <string name="weather_status_str">Weather status</string>
     
     <string name="weather_str">Weather</string>
+    
+    <!-- 
+    Please use your own API key down below generated from https://openweathermap.org/ 
+    , create your account on that site and grab a key then place your key in given "open_weather_maps_app_id" tag below. 
+    -->
     <string name="open_weather_maps_app_id">282f811e71e9ace6a541053456059fc0</string>
+    
     <string name="enter_city_name_str">Enter city name</string>
     <string name="change_city_str_OK_btn_str">OK</string>
     <string name="confirmDeleteCity_str">Confirm Delete City</string>
