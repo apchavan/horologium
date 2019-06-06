@@ -4,7 +4,7 @@
 
 # *Horologium*
 
-*Horologium* is a Latin word whose meaning is *Clock*.
+*Horologium* is a Latin word whose meaning is *Clock*. ***{College project}***
 
 The main purpose of this application to contain functionalities of clock such as time, alarm, reminder, stopwatch with additional functionalities like weather info, time zone etc.
 In short this application integrates basic features of a clock and a weather application with more compatibility that is **it can be installed on smartphones having android version 4.4.2 (Kitkat)**.
