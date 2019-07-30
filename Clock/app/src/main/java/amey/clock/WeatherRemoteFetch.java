@@ -18,7 +18,8 @@ class WeatherRemoteFetch {
     static JSONObject getJSON(Context context, String city) throws IOException, JSONException {
         URL url = new URL(String.format(OPEN_WEATHER_MAP_API, city));
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-
+        
+        // NOTE: 'open_weather_maps_app_id' key registered on 'https://openweathermap.org/' for your email is required below.
         connection.addRequestProperty("x-api-key", context.getString(R.string.open_weather_maps_app_id));
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
