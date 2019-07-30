@@ -24,3 +24,6 @@ In short this application integrates basic features of a clock and a weather app
 **TODO:**
 * Currently alarm trigger is vibrate only, still we can not select a custom audio file as a alarmtone.
 * We can not select specific date for alarm, rather we can select only day from days in a week.
+
+***NOTE:***
+Please create your account on https://openweathermap.org/ and get your own key. Then add this key to **'open_weather_maps_app_id'** tag in **strings.xml** then build your APK.
