@@ -33,8 +33,9 @@
     <!-- 
     Please use your own API key down below generated from https://openweathermap.org/ 
     , create your account on that site and grab a key then place your key in given "open_weather_maps_app_id" tag below. 
+    This key will be needed to fetch the weather and used in 'WeatherRemoteFetch.java' source file of project.
     -->
-    <string name="open_weather_maps_app_id">282f811e71e9ace6a541053456059fc0</string>
+    <string name="open_weather_maps_app_id">insert_your_openweathermap_api_key_here</string>
     
     <string name="enter_city_name_str">Enter city name</string>
     <string name="change_city_str_OK_btn_str">OK</string>
